@@ -71,7 +71,7 @@ div {
   function clean (inp){
     cleanedInput = inp.replace(/[^a-zA-Z]/g, ' ');
 	  inlow = cleanedInput.toLowerCase();
-    gname = greekCalc(inlow);
+      gname = greekCalc(inlow);
 	  lname = latinCalc(inlow);
 	  hname = hebrewCalc(inlow);
   };
@@ -285,6 +285,7 @@ div {
       function handleInput(event) {
           inputValue = event.target.value;
           console.log('Input Value:', inputValue);
+		  
       }
 
 </script>
